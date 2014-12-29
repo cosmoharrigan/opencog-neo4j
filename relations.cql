@@ -1,5 +1,3 @@
-// Example representations of AtomSpace expressions in Cypher
-
 // First, remove any existing nodes and relationships in the graph.
 MATCH(n) OPTIONAL MATCH (n)-[r]-() DELETE r, n;
 
